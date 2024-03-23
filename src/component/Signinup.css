@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.common{
+   
+}
+.left{
+    background-color: rgb(78, 2, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 0.9em;
+    padding-bottom: 2em;
+    gap: 1em;
+    
+}
+.left h2,.left span{
+ text-align: center;
+}
+.Right{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 0.9em;
+    gap: 1em;
+    padding-top: 6em;
+    position: relative;
+}
+#back-btn{
+    position: absolute;
+    float: left;
+    left: 1em;
+    top: 2em;
+    color: black;
+    text-decoration: none;
+}
+#back-btn:hover{
+    color: blue;
+}
+.Right h2,.Right span{
+    text-align: center;
+}
+.Right form{  
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Right form label{
+    color: black;
+    font-size: large;
+    font-weight: 600; 
+    margin-bottom: -0.9em;   
+}
+.Right form input{  
+    font-size: large;
+    font-weight: 600;
+    padding: 0.5em 0.5em;
+    width: 100%;
+    border-radius: 0.5em ;   
+}
+
+.Right button{
+    width: 100%;
+    padding: 0.6em 0em;
+    border-radius: 0.4em;
+    background-color: rgb(71, 2, 123);
+    color: white;
+   
+}
+.Right button a{
+    color: white;
+}
+.Right form p{
+    text-align: center;
+}
