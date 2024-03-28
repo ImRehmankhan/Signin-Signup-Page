@@ -75,8 +75,13 @@
     color: white;
    
 }
+.Right button a,.Right form p a{
+    
+    text-decoration: none;
+}
 .Right button a{
     color: white;
+   
 }
 .Right form p{
     text-align: center;
